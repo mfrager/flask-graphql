@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 install_requires = [
-    "graphql-server[flask]>=3.0.0b1",
+    "graphql-server[flask]>=3.0.0b7",
 ]
 
 tests_requires = [
@@ -36,6 +36,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.12",
         "License :: OSI Approved :: MIT License",
     ],
     keywords="api graphql protocol rest flask",
